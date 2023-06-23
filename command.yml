@@ -1,0 +1,6 @@
+language: rust
+script:
+  - make build
+  - make test-inspect-d
+  - make test-inspect
+  - make test-reverse
